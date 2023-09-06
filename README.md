@@ -1,4 +1,4 @@
-# Wireshark Practice
+# Wireshark Lab
 
 Simple overview of use/purpose.
 
