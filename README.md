@@ -22,7 +22,7 @@ An in-depth paragraph about your project and overview of use.
 * How to run the program
 * Step-by-step bullets
 ![WS_Download](https://github.com/T-A-Smith/Wireshark-Lab/assets/143060189/8899afc5-d29c-4982-b3f7-d8a6fb5fe7f2)
-Check version (Latest version 4.08)
+Check version wireshark -v (Latest version 4.08)
 ![WS_Version](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/b2c8361d-21ab-41bd-81fa-271718e7ea77)
 
 To start, type Wireshark into CLI
@@ -35,8 +35,20 @@ Double click on eth0 interface
 Packets being captured
 ![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/ab9d0fd6-a61b-4951-b4ef-609b666b18cb)
 
-code blocks for commands
-```
+Open settings/enable promiscuous mode on all interfaces
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/f342b5e2-4557-4b84-b328-45d5a6636d15)
+
+
+Ensure the following options are checked
+
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/2733d99e-4690-4abc-9589-6e3ce7a58c33)
+
+Edit > Preferences
+In the columns tab, add Source Port and Destination Port. ...(continue to edit) type - dst port (unresolved) src port (unresolved)
+
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/e8e6e597-553b-429c-8aff-47033d1a4936)
+
+
 
 ## Help
 
