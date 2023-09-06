@@ -3,7 +3,7 @@
 Simple overview of use/purpose.
 
 ## Description
-
+In this lab,
 An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
