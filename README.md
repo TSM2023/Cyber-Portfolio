@@ -1,6 +1,6 @@
 # Wireshark Lab
 
-Simple overview of use/purpose. Malware Traffic Analysis
+Simple overview of use/purpose. Malware Traffic Analysis; installation and configuration,
 
 ## Description
 In this lab,
@@ -19,7 +19,7 @@ An in-depth paragraph about your project and overview of use.
 
 ### Executing program
 
-* How to run the program
+* How to run the program...Installation and Configuration for Traffic Analysis
 * Step-by-step bullets
 ![WS_Download](https://github.com/T-A-Smith/Wireshark-Lab/assets/143060189/8899afc5-d29c-4982-b3f7-d8a6fb5fe7f2)
 Check version wireshark -v (Latest version 4.08)
