@@ -1,7 +1,7 @@
 # Wireshark Lab
 
-Overview
-Malware Traffic Analysis; installation and configuration, Installation and Configuration of Wireshark for Malware Traffic Analysis
+## Overview
+Installation and Configuration of Wireshark for Malware Traffic Analysis
 
 ## Description
 In this lab,
