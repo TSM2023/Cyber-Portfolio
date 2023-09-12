@@ -1,11 +1,7 @@
 # Wireshark Lab
 
 ## Overview
-Installation and Configuration of Wireshark for Malware Traffic Analysis
-
-## Description
-In this lab,
-An in-depth paragraph about your project and overview of use.
+How I install and configure Wireshark for Malware Traffic Analysis
 
 ## Getting Started
 
@@ -14,27 +10,32 @@ An in-depth paragraph about your project and overview of use.
 * Kali Linux
 
 ### Installing
-To download Wireshark in Kali Linux, open the CLI and type in 
+To download Wireshark in Kali Linux, open the CLI and input:
+```
+sudo apt install Wireshark
+```
 
-**sudo apt install Wireshark**
 
 ![WS_Download](https://github.com/T-A-Smith/Wireshark-Lab/assets/143060189/8899afc5-d29c-4982-b3f7-d8a6fb5fe7f2)
 
-Type in **y** when asked Do you want to continue?
+To continue the installation, input **Y** and press **ENTER**: 
 
-Check version wireshark -v (Latest version 4.08)
+
+Next, check the version of Wireshark to ensure version 3.6.2 or later has been installed (Latest version 4.08) 
+```
+Wireshark -v
+```
+
 ![WS_Version](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/b2c8361d-21ab-41bd-81fa-271718e7ea77)
 
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
 ### Executing program
 
-* How to run the program...Installation and Configuration for Traffic Analysis
-* Step-by-step bullets
+To start Wireshark, input Wireshark into the CLI
+```
+Wireshark
+```
 
-To start, type Wireshark into CLI
 ![image](https://github.com/T-A-Smith/Wireshark-Lab/assets/143060189/09cf941d-7fa3-4e02-9228-4fcfaddc4dd5)
 
 Welcome page
