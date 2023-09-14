@@ -31,12 +31,13 @@ Wireshark -v
 
 ### Executing program
 
-To start Wireshark, input Wireshark into the CLI
+To start Wireshark, input **Wireshark** into the CLI
 ```
 Wireshark
 ```
 
-![image](https://github.com/T-A-Smith/Wireshark-Lab/assets/143060189/09cf941d-7fa3-4e02-9228-4fcfaddc4dd5)
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/c63e9eda-b0cf-4e89-b962-37c88b658c45)
+
 
 Welcome page
 Double click on eth0 interface
@@ -62,9 +63,6 @@ In the columns tab, add Source Port and Destination Port. ...(continue to edit) 
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
 ```
 
 ## Authors
