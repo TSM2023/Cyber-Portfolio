@@ -1,7 +1,7 @@
 # Wireshark Lab
 
 ## Overview
-How I install and configure Wireshark for Malware Traffic Analysis
+How I install and configure Wireshark for Traffic Analysis
 
 ## Getting Started
 
