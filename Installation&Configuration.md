@@ -1,86 +1,78 @@
 # Wireshark Lab
 
 ## Overview
-How I install and configure Wireshark for Traffic Analysis
+Configuring Wireshark for Traffic Analysis
 
 ## Getting Started
 
 ### Utilities Used
 
+* Oracle VM VirtualBox
 * Kali Linux
   
-### Installing
-* To download Wireshark in Kali Linux, open the CLI and input:
+### Installation & Execution 
+
+* To download Wireshark in Kali Linux, open the CLI and input: 
 ```
 sudo apt install Wireshark
 ```
-
-
-![WS_Download](https://github.com/T-A-Smith/Wireshark-Lab/assets/143060189/8899afc5-d29c-4982-b3f7-d8a6fb5fe7f2) 
-
-
-* To continue the installation, input **Y** and press **ENTER**: 
-
-<br>
-
-* Check the version of Wireshark to ensure version 3.6.2 or later has been installed (Latest version 4.08) 
-```
-Wireshark -v
-```
-
-![WS_Version](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/b2c8361d-21ab-41bd-81fa-271718e7ea77)
-
-<br>
-
- ### Executing Program
-
-* To start, input **Wireshark** into the CLI
+* Once installed, input **Wireshark** into the CLI
 ```
 Wireshark
 ```
 
-![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/7d41fd49-86d6-4701-90c8-ec1a31ca13e6) 
+   <b>OR</b> 
+
+
+* In the searchbar of Kali Linux, type in **Wireshark**
+
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/2a23e156-cf3d-435a-8356-45b57c09bdd5)
+
+
+<br>
+
+*  On the "Welcome to Wireshark" page, double click on **eth0** interface
+  
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/697eef59-5de6-4e0b-af34-e876589de602)
+
+
+<br>
+
+* Click on 🟥 to stop capturing packets
+
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/2de0a561-10b1-43b8-98fa-1b7cc2797bc9)
+
+
 
 <br>
 
 
-* On the "Welcome to Wireshark" page, double click on **eth0** interface
-![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/a8fe51dd-ee57-4762-a7d5-28d10e927fc5) 
+* Select Edit > Configuration Profiles... 
+
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/c340f699-fd79-4eda-85d7-680b8de2bd34)
+
 
 <br>
 
-* *Example of packets being captured after clicking on eth0:*
-![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/ab9d0fd6-a61b-4951-b4ef-609b666b18cb)
+* Select **Default** > click on **Copy this Profile** ( looks like two little boxes ) > then rename. 
+* I renamed mine UPDATED. The **Type** will show as **Personal.**
+  
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/bfe09672-85a9-45b1-8c26-c5dda91adf90)
+
+
+
+
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/6d20acae-054d-47f9-a43e-ef0fdbb2f62d)
 
 <br>
 
+* Next, go to **EDIT** tab > **PREFERENCES...**
+  
 
-* **Settings** > INPUT tab > Enable promiscuous mode on all interfaces
-<br>
-
-![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/f342b5e2-4557-4b84-b328-45d5a6636d15)
-
-<br>
-
-* **Settings** > OPTIONS tab, **Select:** <br>
-- [x] *Update list of packets in real-time*
-- [x] *Automatically scroll during live capture*
-- [x] *Resolve MAC addresses*
+  ![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/ea23e903-1dfc-4733-bf53-5334d6d1400b)
 
 
-![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/2733d99e-4690-4abc-9589-6e3ce7a58c33)
 
 <br>
-
-* **Edit** > Preferences > Columns <br>
-    - Add (+) TITLE: Source Port  TYPE: Src port (unresolved) <br>
-    - Add (+) TITLE: Destination Port TYPE: Dest port (unresolved) <br>
-    - Press OK
-
- <br>
- 
-![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/e8e6e597-553b-429c-8aff-47033d1a4936)
-
-
 
 
