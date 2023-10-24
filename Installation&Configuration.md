@@ -72,7 +72,32 @@ Wireshark
   ![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/ea23e903-1dfc-4733-bf53-5334d6d1400b)
 
 
+<br>
+
+* Under Appearance, select **COLUMNS**
+* Select - to remove protocol, length, and number of columns <br>
+* Select + to add: <br>
+  -Add (+) TITLE: Src Port TYPE: Src port (unresolved) <br>
+  -Add (+) TITLE: Dest Port TYPE: Dest port (unresolved) <br>
+  Rearrange as shown in photo
+
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/a29cb2de-05b1-4b7a-8d8b-cd273ca0c87f)
 
 <br>
+
+* When using Wireshark to look at HTTP traffic, it is extremely useful to apply a display filter so that we're only seeing HTTP requests.
+* Click on **Apply a display filter** and type in **http.request**
+
+   <br>
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/a659ac9f-a69d-4fa2-9cd0-fd359f85c04c)
+
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/680bfa35-0495-420b-b82d-e051317c7d09)
+
+<br>
+
+* Expand the breakout in the middle section, so you see the **Host:** line in the HTTP header.  Right-click on **Host:** and select "Apply as Column" from the menu.
+
+
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/75656451-9f83-46a5-a10a-b48eb37415a4)
 
 
