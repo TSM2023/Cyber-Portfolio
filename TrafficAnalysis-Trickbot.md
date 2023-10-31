@@ -1,14 +1,19 @@
 # ⚠️IN PROGRESS⚠️
 
  
-  # Malware Traffic Analysis - TRICKBOT
+  # Malware Traffic Analysis 
   
  <p align="center">
 
    ![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/a5fc7dcc-8b00-47c1-89ec-111d7c84e51c)
  </p>
 
-## Trickbot Overview
+## Overview
+* Below is the process I used to analyze a pcap file consisting of network traffic with TrickBot malware
+* Trickbot Information:
+  - Information stealing and banking malware
+  - Distributed through malspam or other malware (ie. Emotet malware can distribute TrickBot)
+  - Common 
 
 ## Analyzing a Trickbot Infection
 
@@ -55,9 +60,50 @@
   ![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/555813f1-0db6-43ca-b47e-a5304b02b4c5)
 
   
+<br>
 
+* On the next screen, choose the location where you would like to save the files, then click **SAVE**
 
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/b0a084a8-0e05-4b29-891b-0bd277362705)
+
+<br> 
+
+* Once saved, we can extract the hashes of the files
+* To do this, open up a command terminal window and type in md5sum followed by the file path of the file. Press **ENTER**
+
+  ![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/cf253588-c2b8-4905-8737-34ff7da9bdfc)
+
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/da041b3d-9b38-4de6-8481-3083ff5995ff)
+
+* In a web browser,  navigate to VirusTotal.com. Select the SEARCH tab and input the hash value in the search bar
   
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/73df8330-205f-4b34-ba0e-8438148ee73f)
+
+**OR**
+
+* Drag and drop the suspicious file
+  
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/a98f2241-8f54-4dee-ad58-d19a55eed39c)
+
+ * Repeat for each file
+ * Results: 
+   
+    -*application/octet-stream*
+   
+   ![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/b69ecb9a-0f89-4736-b9d7-493e3bb18ceb)
+
+<br>
+
+   -*application/zip* 
+ ![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/32a30cf7-429d-4572-a18f-dd710c5bb554)
+
+<br>
+
+  -*application/vnd.ms-cab-compressed* 
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/365fb4a7-252e-4149-ab8f-cb732335cf6c)
+
+
+* Based on the VirusTotal results
 
 
 
