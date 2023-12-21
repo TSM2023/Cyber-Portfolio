@@ -108,7 +108,13 @@
 ![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/365fb4a7-252e-4149-ab8f-cb732335cf6c)
 
 
-* Based on the VirusTotal results
+* 	Based on VirusTotal, two of the files submitted are considered malicious
+    - Application/zip
+    - Application/octet-stream
+ 
+* Next, it's time to examine HTTP/HTTPS traffic and look for specific behaviors indicating this is a TrickBot infection
+
+
 
 
 
