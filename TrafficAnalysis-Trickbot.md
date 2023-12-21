@@ -12,8 +12,13 @@
 * Below is the process I used to analyze a pcap file consisting of network traffic with TrickBot malware
 * Trickbot Information:
   - Information stealing and banking malware
-  - Distributed through malspam or other malware (ie. Emotet malware can distribute TrickBot)
-  - Common 
+  - Distributed through embedded URLs, infectected attachemnts in malspam, or other malware (ie. Emotet malware can distribute TrickBot)
+  - Common indicators:
+     - HTTPS/SSL/TLS traffic over TCP ports 447 and 449 (unusual)
+     - HTTP requests contain png (Windows exe files may masquerade as png)
+     - Frame contains “This program cannot be run in DOS mode" (often seen in exe files)
+     - HTTP traffic over TCP port 8082 (sends sensitive information from the infected host like passwords to C2 servers)
+ 
 
 ## Analyzing a Trickbot Infection
 
