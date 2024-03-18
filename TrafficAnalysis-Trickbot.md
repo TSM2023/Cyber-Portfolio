@@ -113,7 +113,27 @@
     - Application/octet-stream
  
 * Next, it's time to examine HTTP/HTTPS traffic and look for specific behaviors indicating this is a TrickBot infection
+  
+* To examine the HTTP/HTTPS requests of the malicious files, navigate to:	**File > Export Objects > HTTP…**
+  
+  ![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/de9e3d91-9213-47c0-a9fb-883e56a4a745)
 
+* Sort by content type and select the content that VirusTotal noted as malicious.
+* This will highlight the request in the Main window, where you can follow the HTTP stream and examine for signs of infection
+  
+  <br>
+
+  ![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/88841c16-9429-49c3-827c-d6b7ac98c60e)
+  
+*	Close the Export window
+*	**Right click the highlighted HTTP request > Follow > HTTP Stream**
+  <br>
+  
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/e850729a-e025-4a55-b7c8-7227aa37a135)
+
+<br>
+
+![image](https://github.com/T-A-Smith/Wireshark-Practice/assets/143060189/dd75fada-f5d4-4930-a275-5fa2c2b0db92)
 
 
 
